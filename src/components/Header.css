@@ -1,0 +1,43 @@
+.logo{
+    width: 60px;
+}
+.fabars{
+    color: white;
+}
+.navbar-toggler{
+    border-color: white; 
+    border-width: 2px;
+    transition: border-color 0.3s;
+}
+.navbar-toggler:hover{
+    border-radius: 5px;
+    border-color: green;
+}
+.navbar{
+    /* background-color: black; */
+    border: 1px solid green;
+    box-shadow: inset 0 0 10px rgba(127, 218, 94, 0.7); /* Işıltı efekti */
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+
+.form-control{
+    border-width: 3px;
+    width: 300px;
+    border-radius: 40px;
+    border-color: transparent;
+    transition: border-color 0.3s;
+}
+
+.form-control:hover{
+    border-color: green;
+}
+
+
+
+.btn-outline-success:hover {
+    color: white;        /* Yazı rengini değiştirin */
+    background-color: green;  /* Arkaplan rengini değiştirin */
+    border-color: white;  /* Kenarlık rengini değiştirin */
+}

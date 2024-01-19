@@ -1,0 +1,22 @@
+.SocialMedia{
+    /* background-color: black; */
+    height: 35px;
+    border-radius:15px;
+    display: flex;
+    text-align: right;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-brands{
+    width: 20px;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+.SocialMedia a:hover i {
+    color: green; 
+}
