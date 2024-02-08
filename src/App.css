@@ -3,6 +3,10 @@ body{
     background-image: url('/public/assets/images/home.jpg');
 }
 
+
+
+
+/* Link hissesi */
 .navigation{
   margin-top: 20px;
 }
@@ -54,6 +58,19 @@ body{
 
 
 
+/* Not Found hissesi */
+.container-notfound {
+  color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content {
+  text-align: center;
+}
 
 
 
@@ -78,8 +95,7 @@ body{
 
 
 
-
-
+/* Home hissesi */
   
   .home-container {
     display: flex;
@@ -216,3 +232,99 @@ body{
     text-align: center;
   }
   
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Photos.css */
+
+.container-photo{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.custom-card{
+  border-radius: 20px;
+}
+.custom-card:hover {
+  border: 3px solid green; /* Parlak yeşil renkli kenarlık ekleyin */
+  box-shadow: 0 0 10px green; /* Hafif bir gölge efekti ekleyin */
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Düzgün bir geçiş ekleyin */
+}
+
+.card-img{
+  border-radius: 20px;
+}
+
+.container-photos-ms{
+  color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* Quotes hissesi */
+.container-quotes{
+  color: white;
+}
+.container-quotes-ms{
+  font-weight: bold;
+  font-size: 40px;
+}
+  
+.container-wallpaper{
+  border-radius: 20px;
+}
+.container-wallpaper:hover {
+    border: 3px solid green; 
+    box-shadow: 0 0 10px green; 
+    transition: border 0.3s ease, box-shadow 0.3s ease; 
+  }
+
+  .btn-wp{
+    font-size: 15px;
+  }
+
+  .card-img-top {
+    height: 450px; /* Set the maximum height of the image */
+    border-radius: 20px;
+  }
+
+  .card-body{
+    height: 100px;
+  }

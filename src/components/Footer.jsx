@@ -21,7 +21,7 @@ function Footer() {
               <li><a  href="https://www.instagram.com/mmotivasiya/" target="_blank"><i className="fab fa-instagram"></i></a></li>
               <li><a href="https://t.me/mmotivasiya" target="_blank"><i className="fab fa-telegram"></i></a></li>
               <li><a href="#"><i className="fab fa-facebook-f" target="_blank"></i></a></li>
-              <li><a href="#"><i className="fab fa-tiktok"></i></a></li>
+              <li><a href="https://www.tiktok.com/@mmotivasiya_" target='_blank'><i className="fab fa-tiktok"></i></a></li>
             </ul>
           </div>
         </div>
