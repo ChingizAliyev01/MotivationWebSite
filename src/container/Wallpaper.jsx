@@ -4,12 +4,11 @@ const Wallpaper = () => {
   const [wallpapers, setWallpapers] = useState([]);
 
   useEffect(() => {
-    // JSON dosyasından verileri çekme
     fetch('./src/Wallpaper.json')
       .then((response) => response.json())
       .then((data) => setWallpapers(data))
       .catch((error) => console.error('Error fetching wallpapers:', error));
-  }, []); // Sadece bir kere yüklenmesi için boş dependency array kullanılıyor.
+  }, []); 
 
   return (
     <div className="container-wp h1 mt-5 text-center">
@@ -20,8 +19,8 @@ const Wallpaper = () => {
             <div className="card container-wallpaper">
               <img src={wallpaper.src} className="card-img-top" alt={`Wallpaper ${index + 1}`} />
               <div className="card-body text-center">
-                <a href={wallpaper.src} // Resmin URL'sine yönlendiren link
-                  download={`Wallpaper${index + 1}.jpg`} // İndirme işlemi için dosya adı
+                <a href={wallpaper.src} 
+                  download={`Wallpaper${index + 1}.jpg`}
                   className="btn btn-wp btn-primary">Şəkili Yüklə</a>
               </div>
             </div>

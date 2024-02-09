@@ -4,12 +4,11 @@ const Photos = () => {
   const [photos, setPhotos] = useState([]);
 
   useEffect(() => {
-    // JSON dosyasından verileri çekme
     fetch('./src/Photo.json')
       .then((response) => response.json())
       .then((data) => setPhotos(data))
       .catch((error) => console.error('Error fetching photos:', error));
-  }, []); // Sadece bir kere yüklenmesi için boş dependency array kullanılıyor.
+  }, []); 
 
   return (
     <div className="container container-photo">

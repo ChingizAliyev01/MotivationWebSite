@@ -4,27 +4,36 @@
 .fabars{
     color: white;
 }
-/* .navbar-toggler{
-    border-color: white; 
-    border-width: 2px;
-    transition: border-color 0.3s;
-}
-.navbar-toggler:hover{
-    border-radius: 5px;
-    border-color: #B93A03;
-} */
+
 .navbar{
-    /* background-color: black; */
     border: 1px solid #B93A03;
-    box-shadow: inset 0 0 10px #B93A03; /* Işıltı efekti */
+    box-shadow: inset 0 0 10px #B93A03;
     height: 80px;
     border-radius: 20px;
     margin-top: 1px;
 }
 
+
+
+
+  @media (max-width: 767px) {
+    .navbar-brand {
+      margin-right: 0;
+    }
+  
+    .form-control {
+      max-width: none;
+    }
+  
+    .btn-src {
+      margin-top: 10px; /
+    }
+  }
+
+
 .form-control{
     border-width: 3px;
-    width: 300px;
+    width: 250px;
     border-radius: 40px;
     border-color: transparent;
     transition: border-color 0.3s;
@@ -32,14 +41,14 @@
 
 .form-control:hover{
     border-color: #B93A03;
-}
+} */
 
 
 
 .btn-outline-success:hover {
-    color: white;        /* Yazı rengini değiştirin */
-    background-color: #B93A03;  /* Arkaplan rengini değiştirin */
-    border-color: white;  /* Kenarlık rengini değiştirin */
+    color: white;        
+    background-color: #B93A03; 
+    border-color: white;  
 }
 
 
